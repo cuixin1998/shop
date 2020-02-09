@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      #log{
+          background: black;
+          color: white;
+          padding: 10px 20px;
+      }
+    </style>
+</head>
+<body>
+    <div id="log">
+        
+    </div>
+</body>
+<script>
+    var str=`
+    console.log(a)
+    var a=1;
+    console.log(b);
+    let b=2`
+    // var str1="console.log(\"a\"+a)"
+    // str1+='var a=1'
+    // add(str1)
+    function user(){
+        var a =1;
+    }
+    console.log(a)
+   function add(str){
+       document.getElementById("log").innerHTML=str
+   }
+</script>
+</html>
